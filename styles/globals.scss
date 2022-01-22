@@ -1,0 +1,39 @@
+:root {
+    --white: #FFFFFF;
+    --black: #2D2D2D;
+
+    --light-gray: #D4D4DB;
+
+    --blue: #633DFF;
+    --light-blue: #F3F3FF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, a, p, h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--black);
+}
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    font-size:  5rem;
+}
+
+p {
+    font-family: Nunito, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

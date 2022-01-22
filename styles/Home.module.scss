@@ -8,24 +8,62 @@
 
     padding: 0 4rem;
     margin: auto;
+
+    .greeting {
+        & > p {
+            color: #6B5FFF;
+            font-size: 2rem;
+        }
+
+        .socialMedias {
+            display: flex;
+            gap: 1.5rem;
+
+            margin-top: 0.5rem;
+        }
+    }
+
+    .hand {
+        flex: 1;
+
+        max-width: 20rem;
+        margin-left: 4rem;
+    }
 }
 
-.greeting > p {
-    color: #6B5FFF;
-    font-size: 2rem;
-}
-
-.socialMedias {
+.main {
     display: flex;
-    gap: 1.5rem;
-
-    margin-top: 0.5rem;
+    flex-direction: column;
 }
 
-.hand {
-    flex: 1;
+.section {
+    .content {
+        padding: 64px;
+        margin: auto;
 
-    max-width: 20rem;
-    margin-left: 4rem;
+        max-width: 1280px;
+
+        & > h2 {
+            font-size: 2.5rem;
+        }
+
+        & > p {
+            margin-top: 1rem;
+
+            font-size: 1.5rem;
+            text-align: justify;
+        }
+    }
 }
 
+.aboutMeWave {
+    color: var(--blue);
+
+    height: 64px;
+    width: 100%;
+}
+
+.aboutMe {
+    color: var(--white);
+    background-color: var(--blue);
+}

@@ -36,6 +36,11 @@
     flex-direction: column;
 }
 
+.wave {
+    height: 2rem;
+    width: 100%
+}
+
 .section {
     .content {
         padding: 64px;
@@ -58,9 +63,6 @@
 
 .aboutMeWave {
     color: var(--blue);
-
-    height: 64px;
-    width: 100%;
 }
 
 .aboutMe {

@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                 <WavingHand className={styles.hand}/>
             </header>
             <main className={styles.main}>
-                <TopWave className={styles.aboutMeWave} />
+                <TopWave className={`${styles.wave} ${styles.aboutMeWave}`} />
                 <section className={`${styles.section} ${styles.aboutMe}`}>
                     <div className={styles.content}>
                         <h2>About Me</h2>
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
                         </p>
                     </div>
                 </section>
-                <BottomWave className={styles.aboutMeWave} />
+                <BottomWave className={`${styles.wave} ${styles.aboutMeWave}`} />
             </main>
             <footer></footer>
         </>

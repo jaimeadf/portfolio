@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                         </a>
                         <a
                             className={styles.socialMedia}
-                            href="https://github.com/jaimeadf"
+                            href="https://www.linkedin.com/in/jaime-daniel-38273a1bb"
                             rel="noreferrer"
                             target="_blank"
                         >

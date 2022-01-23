@@ -4,6 +4,7 @@ import classNames from 'classnames';
 
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTypescript, SiJava } from 'react-icons/si';
+import { FaHeart } from 'react-icons/fa';
 
 import SocialMedia from '../components/SocialMedia';
 import WavingHand from '../components/WavingHand';
@@ -93,8 +94,17 @@ const Home: NextPage = () => {
                 </section>
             </main>
 
-            <footer>
-
+            <TopWave className={classNames(styles.wave, styles.footerWave)} />
+            <footer className={styles.footer}>
+                <p className={styles.madeWith}>
+                    Made with &#123;
+                    <SiHtml5 className={styles.icon} />,
+                    <SiCss3 className={styles.icon} />,
+                    <SiReact className={styles.icon} />,
+                    <FaHeart className={styles.icon} />
+                    &#125;
+                </p>
+                <p>&copy; 2021 Jaime Filho. All rights reserved.</p>
             </footer>
         </div>
     );

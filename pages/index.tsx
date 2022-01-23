@@ -6,7 +6,6 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTypescript, SiJava } from 'react-icons/si';
 import { FaHeart } from 'react-icons/fa';
 
-import SocialMedia from '../components/SocialMedia';
 import WavingHand from '../components/WavingHand';
 
 import TopWave from '../assets/curves/top-wave.svg'

@@ -12,7 +12,7 @@ import styles from '../styles/Home.module.scss';
 
 const Home: NextPage = () => {
     return (
-        <>
+        <div className={styles.container}>
             <Head>
                 <title>Hello</title>
             </Head>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                 <BottomWave className={`${styles.wave} ${styles.aboutMeWave}`} />
             </main>
             <footer></footer>
-        </>
+        </div>
     );
 }
 

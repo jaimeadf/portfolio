@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+
+    background: var(--light-gray);
+}
+
+.progress {
+    position: absolute;
+
+    height: 100%;
+
+    background: var(--blue);
+}

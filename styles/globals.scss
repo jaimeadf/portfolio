@@ -21,6 +21,7 @@ html, body, a, p, h1, h2 {
 
 html {
     color: var(--black);
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -35,10 +36,6 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
 }
 
 a {

@@ -62,35 +62,35 @@ const Home: NextPage = () => {
                         <h2>My Skills</h2>
                         <div className={styles.skills}>
                             <div className={styles.skill}>
-                                <SiHtml5 className={styles.technology} />
+                                <SiHtml5 className={styles.technologyIcon} />
                                 <ProgressBar className={styles.proficiency} value={50} />
                             </div>
                             <div className={styles.skill}>
-                                <SiCss3 className={styles.technology} />
+                                <SiCss3 className={styles.technologyIcon} />
                                 <ProgressBar className={styles.proficiency} value={50} />
                             </div>
                             <div className={styles.skill}>
-                                <SiJavascript className={styles.technology} />
+                                <SiJavascript className={styles.technologyIcon} />
                                 <ProgressBar className={styles.proficiency} value={50} />
                             </div>
                             <div className={styles.skill}>
-                                <SiReact className={styles.technology} />
+                                <SiReact className={styles.technologyIcon} />
                                 <ProgressBar className={styles.proficiency} value={50} />
                             </div>
                             <div className={styles.skill}>
-                                <SiTypescript className={styles.technology} />
+                                <SiTypescript className={styles.technologyIcon} />
                                 <ProgressBar className={styles.proficiency} value={50} />
                             </div>
                             <div className={styles.skill}>
-                                <SiJava className={styles.technology} />
+                                <SiJava className={styles.technologyIcon} />
                                 <ProgressBar className={styles.proficiency} value={50} />
                             </div>
                             <div className={styles.skill}>
-                                <CSharp className={styles.technology} />
+                                <CSharp className={styles.technologyIcon} />
                                 <ProgressBar className={styles.proficiency} value={50} />
                             </div>
                             <div className={styles.skill}>
-                                <C className={styles.technology} />
+                                <C className={styles.technologyIcon} />
                                 <ProgressBar className={styles.proficiency} value={50} />
                             </div>
                         </div>
@@ -102,10 +102,10 @@ const Home: NextPage = () => {
             <footer className={styles.footer}>
                 <p className={styles.madeWith}>
                     Made with &#123;
-                    <SiHtml5 className={styles.icon} />,
-                    <SiCss3 className={styles.icon} />,
-                    <SiReact className={styles.icon} />,
-                    <FaHeart className={styles.icon} />
+                    <SiHtml5 className={styles.toolIcon} />,
+                    <SiCss3 className={styles.toolIcon} />,
+                    <SiReact className={styles.toolIcon} />,
+                    <FaHeart className={styles.toolIcon} />
                     &#125;
                 </p>
                 <p>&copy; 2022 Jaime Filho. All rights reserved.</p>

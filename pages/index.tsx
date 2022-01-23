@@ -104,7 +104,7 @@ const Home: NextPage = () => {
                     <FaHeart className={styles.icon} />
                     &#125;
                 </p>
-                <p>&copy; 2021 Jaime Filho. All rights reserved.</p>
+                <p>&copy; 2022 Jaime Filho. All rights reserved.</p>
             </footer>
         </div>
     );

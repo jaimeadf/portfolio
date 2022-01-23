@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import classNames from 'classnames';
 
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTypescript, SiJava } from 'react-icons/si';
@@ -34,8 +35,8 @@ const Home: NextPage = () => {
             </header>
 
             <main className={styles.main}>
-                <TopWave className={`${styles.wave} ${styles.aboutMeWave}`} />
-                <section className={`${styles.section} ${styles.aboutMe}`}>
+                <TopWave className={classNames(styles.wave, styles.aboutMeWave)} />
+                <section className={classNames(styles.section, styles.aboutMe)}>
                     <div className={styles.content}>
                         <h2>About Me</h2>
                         <p>
@@ -49,7 +50,7 @@ const Home: NextPage = () => {
                         </p>
                     </div>
                 </section>
-                <BottomWave className={`${styles.wave} ${styles.aboutMeWave}`} />
+                <BottomWave className={classNames(styles.wave, styles.aboutMeWave)} />
 
                 <section className={styles.section}>
                     <div className={styles.content}>
@@ -91,7 +92,10 @@ const Home: NextPage = () => {
                     </div>
                 </section>
             </main>
-            <footer></footer>
+
+            <footer>
+
+            </footer>
         </div>
     );
 }

@@ -1,4 +1,4 @@
-declare module 'src/assets/svgr/*.svg' {
+declare module '*.svg' {
     const SVG: React.VFC<React.SVGProps<SVGSVGElement>>;
 
     export default SVG;

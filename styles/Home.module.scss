@@ -20,13 +20,6 @@
             color: #6B5FFF;
             font-size: 2rem;
         }
-
-        .socialMedias {
-            display: flex;
-            gap: 1.5rem;
-
-            margin-top: 0.5rem;
-        }
     }
 
     .hand {
@@ -34,6 +27,30 @@
 
         max-width: 20rem;
         margin-left: 4rem;
+    }
+}
+
+.socialMedias {
+    display: flex;
+    gap: 1.5rem;
+
+    margin-top: 0.5rem;
+}
+
+.socialMedia {
+    display: flex;
+
+    color: var(--light-gray);
+    transition: color 0.2s, transform 0.2s;
+
+    &:hover {
+        color: var(--blue);
+        transform: translateY(-0.5rem);
+    }
+
+    .socialMediaIcon {
+        width: 2rem;
+        height: 2rem;
     }
 }
 

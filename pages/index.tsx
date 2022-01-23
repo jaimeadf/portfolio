@@ -28,8 +28,12 @@ const Home: NextPage = () => {
                     <p>Hi, my name is</p>
                     <h1>Jaime Filho</h1>
                     <div className={styles.socialMedias}>
-                        <SocialMedia url={"https://github.com/jaimeadf"} icon={<FiGithub size={32} />} />
-                        <SocialMedia url={"https://github.com/jaimeadf"} icon={<FiLinkedin size={32} />} />
+                        <a className={styles.socialMedia} href="https://github.com/jaimeadf">
+                            <FiGithub className={styles.socialMediaIcon} />
+                        </a>
+                        <a className={styles.socialMedia} href="https://github.com/jaimeadf">
+                            <FiLinkedin className={styles.socialMediaIcon} />
+                        </a>
                     </div>
                 </div>
                 <WavingHand className={styles.hand}/>

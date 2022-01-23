@@ -27,10 +27,10 @@ const Home: NextPage = () => {
                     <p>Hi, my name is</p>
                     <h1>Jaime Filho</h1>
                     <div className={styles.socialMedias}>
-                        <a className={styles.socialMedia} href="https://github.com/jaimeadf">
+                        <a className={styles.socialMedia} href="https://github.com/jaimeadf" target="_blank">
                             <FiGithub className={styles.socialMediaIcon} />
                         </a>
-                        <a className={styles.socialMedia} href="https://github.com/jaimeadf">
+                        <a className={styles.socialMedia} href="https://github.com/jaimeadf" target="_blank">
                             <FiLinkedin className={styles.socialMediaIcon} />
                         </a>
                     </div>

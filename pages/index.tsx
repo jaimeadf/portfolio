@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import classNames from 'classnames';
 
-import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiArrowDown } from 'react-icons/fi';
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTypescript, SiJava } from 'react-icons/si';
 import { FaHeart } from 'react-icons/fa';
 
@@ -34,6 +34,7 @@ const Home: NextPage = () => {
                             <FiLinkedin className={styles.socialMediaIcon} />
                         </a>
                     </div>
+                    <FiArrowDown className={styles.scroll} />
                 </div>
                 <WavingHand className={styles.hand}/>
             </header>
@@ -62,35 +63,35 @@ const Home: NextPage = () => {
                         <div className={styles.skills}>
                             <div className={styles.skill}>
                                 <SiHtml5 className={styles.technologyIcon} />
-                                <ProgressBar className={styles.proficiency} value={50} />
+                                <ProgressBar className={styles.proficiency} value={100} />
                             </div>
                             <div className={styles.skill}>
                                 <SiCss3 className={styles.technologyIcon} />
-                                <ProgressBar className={styles.proficiency} value={50} />
+                                <ProgressBar className={styles.proficiency} value={100} />
                             </div>
                             <div className={styles.skill}>
                                 <SiJavascript className={styles.technologyIcon} />
-                                <ProgressBar className={styles.proficiency} value={50} />
+                                <ProgressBar className={styles.proficiency} value={90} />
                             </div>
                             <div className={styles.skill}>
                                 <SiReact className={styles.technologyIcon} />
-                                <ProgressBar className={styles.proficiency} value={50} />
+                                <ProgressBar className={styles.proficiency} value={90} />
                             </div>
                             <div className={styles.skill}>
                                 <SiTypescript className={styles.technologyIcon} />
-                                <ProgressBar className={styles.proficiency} value={50} />
+                                <ProgressBar className={styles.proficiency} value={90} />
                             </div>
                             <div className={styles.skill}>
                                 <SiJava className={styles.technologyIcon} />
-                                <ProgressBar className={styles.proficiency} value={50} />
+                                <ProgressBar className={styles.proficiency} value={60} />
                             </div>
                             <div className={styles.skill}>
                                 <CSharp className={styles.technologyIcon} />
-                                <ProgressBar className={styles.proficiency} value={50} />
+                                <ProgressBar className={styles.proficiency} value={75} />
                             </div>
                             <div className={styles.skill}>
                                 <C className={styles.technologyIcon} />
-                                <ProgressBar className={styles.proficiency} value={50} />
+                                <ProgressBar className={styles.proficiency} value={40} />
                             </div>
                         </div>
                     </div>

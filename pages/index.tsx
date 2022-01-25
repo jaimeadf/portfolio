@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import classNames from 'classnames';
 
-import { FiGithub, FiLinkedin, FiArrowDown } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail,  FiArrowDown } from 'react-icons/fi';
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTypescript, SiJava } from 'react-icons/si';
 import { FaHeart } from 'react-icons/fa';
 
@@ -42,6 +42,14 @@ const Home: NextPage = () => {
                             target="_blank"
                         >
                             <FiLinkedin className={styles.socialMediaIcon} />
+                        </a>
+                        <a
+                            className={styles.socialMedia}
+                            href="mailto:me@jaimeadf.com"
+                            rel="noreferrer"
+                            target="_blank"
+                        >
+                            <FiMail className={styles.socialMediaIcon} />
                         </a>
                     </div>
                     <FiArrowDown className={styles.scroll} />

@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                     <div className={styles.socialMedias}>
                         <a
                             className={styles.socialMedia}
-                            href="https://github.com/jaimeadf"
+                            href="https://github.jaimeadf.com"
                             rel="noreferrer"
                             target="_blank"
                         >
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                         </a>
                         <a
                             className={styles.socialMedia}
-                            href="https://www.linkedin.com/in/jaime-daniel-38273a1bb"
+                            href="https://linkedin.jaimeadf.com"
                             rel="noreferrer"
                             target="_blank"
                         >

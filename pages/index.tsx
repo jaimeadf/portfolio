@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import classNames from 'classnames';
 
-import { FiGithub, FiLinkedin, FiMail,  FiArrowDown } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from 'react-icons/fi';
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTypescript, SiJava } from 'react-icons/si';
 import { FaHeart } from 'react-icons/fa';
 

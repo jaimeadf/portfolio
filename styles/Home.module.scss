@@ -42,7 +42,6 @@
 
 .socialMedias {
     display: flex;
-    gap: 1.5rem;
 
     margin-top: 0.5rem;
 }
@@ -52,6 +51,10 @@
 
     color: var(--light-gray);
     transition: color 0.2s, transform 0.2s;
+
+    &:not(:first-child) {
+        margin-left: 1.5rem;
+    }
 
     &:hover {
         color: var(--blue);

@@ -20,7 +20,7 @@ const Home: NextPage = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Hello</title>
+                <title>Jaime Filho</title>
             </Head>
             <header className={styles.header}>
                 <div className={styles.greeting}>

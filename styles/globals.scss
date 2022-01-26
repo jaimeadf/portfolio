@@ -48,3 +48,9 @@ a {
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: variables.$phone-breakpoint) {
+    html {
+        font-size: 10px;
+    }
+}

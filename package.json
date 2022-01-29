@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
-  "private": true,
+  "repository": "https://github.com/jaimeadf/portfolio",
+  "author": "Jaime Filho <jaimeadanielfilho@hotmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

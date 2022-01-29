@@ -2,6 +2,8 @@
 
 This is my portfolio built with [Next.js](https://nextjs.org/) to show more about myself and my abilities. You can check it at [www.jaimeadf.com](https://www.jaimeadf.com).
 
+![Preview](https://i.imgur.com/uUUu0cK.png)
+
 ## Getting Started
 
 ### Prerequisites

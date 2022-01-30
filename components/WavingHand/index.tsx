@@ -1,9 +1,9 @@
 import { ReactNode, FunctionComponent, SVGProps } from 'react';
 import classNames from 'classnames';
 
-import styles from './styles.module.scss';
-
 import Emoji from '../../assets/emojis/waving-hand.svg';
+
+import styles from './styles.module.scss';
 
 const WavingHand: FunctionComponent<SVGProps<SVGSVGElement>> = props => {
     return (

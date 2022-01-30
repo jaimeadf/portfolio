@@ -7,6 +7,7 @@ import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTypescript, SiJava } from 're
 import { FaHeart } from 'react-icons/fa';
 
 import WavingHand from '../components/WavingHand';
+import ProgressBar from '../components/ProgressBar';
 
 import TopWave from '../assets/curves/top-wave.svg'
 import BottomWave from '../assets/curves/bottom-wave.svg';
@@ -14,7 +15,6 @@ import CSharp from '../assets/technologies/csharp.svg';
 import C from '../assets/technologies/c.svg';
 
 import styles from '../styles/Home.module.scss';
-import ProgressBar from '../components/ProgressBar';
 
 const Home: NextPage = () => {
     return (

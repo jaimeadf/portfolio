@@ -59,7 +59,7 @@ const Home: NextPage = () => {
 
             <main className={styles.main}>
                 <TopWave className={classNames(styles.wave, styles.aboutMeWave)} />
-                <section className={classNames(styles.section, styles.aboutMe)}>
+                <section id={styles.aboutMe} className={classNames(styles.section)}>
                     <div className={styles.content}>
                         <h2>About Me</h2>
                         <p>

@@ -52,7 +52,9 @@ const Home: NextPage = () => {
                             <FiMail className={styles.socialMediaIcon} />
                         </a>
                     </div>
-                    <FiArrowDown className={styles.scroll} />
+                    <a href={`#${styles.aboutMe}`}>
+                        <FiArrowDown className={styles.scroll} />
+                    </a>
                 </div>
                 <WavingHand className={styles.hand}/>
             </header>

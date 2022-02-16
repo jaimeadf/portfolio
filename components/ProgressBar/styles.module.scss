@@ -1,7 +1,9 @@
+@use '../../styles/variables/colors';
+
 .container {
     position: relative;
 
-    background: var(--light-gray);
+    background: colors.$light-gray;
 }
 
 .progress {
@@ -10,5 +12,5 @@
     height: 100%;
     border-radius: inherit;
 
-    background: var(--blue);
+    background: colors.$blue;
 }

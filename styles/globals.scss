@@ -1,15 +1,8 @@
 @use 'variables/breakpoints';
+@use 'variables/colors';
 
 :root {
     scroll-behavior: smooth;
-
-    --white: #FFFFFF;
-    --black: #2D2D2D;
-
-    --light-gray: #D4D4DB;
-
-    --blue: #633DFF;
-    --light-blue: #F3F3FF;
 }
 
 * {
@@ -22,7 +15,7 @@ html, body, a, p, h1, h2 {
 }
 
 html {
-    color: var(--black);
+    color: colors.$black;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }

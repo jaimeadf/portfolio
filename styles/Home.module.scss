@@ -1,4 +1,5 @@
 @use 'variables/breakpoints';
+@use 'variables/colors';
 
 .container {
     display: flex;
@@ -19,7 +20,7 @@
 
     .greeting {
         & > p {
-            color: #6B5FFF;
+            color: colors.$blue;
             font-size: 2rem;
         }
     }
@@ -49,7 +50,7 @@
 .socialMedia {
     display: flex;
 
-    color: var(--light-gray);
+    color: colors.$light-gray;
     transition: color 0.2s, transform 0.2s;
 
     &:not(:first-child) {
@@ -57,7 +58,7 @@
     }
 
     &:hover {
-        color: var(--blue);
+        color: colors.$blue;
         transform: translateY(-0.5rem);
     }
 
@@ -95,12 +96,12 @@
 }
 
 .aboutMeWave {
-    color: var(--blue);
+    color: colors.$blue;
 }
 
 #aboutMe {
-    color: var(--white);
-    background-color: var(--blue);
+    color: colors.$white;
+    background-color: colors.$blue;
 }
 
 .skills {
@@ -120,7 +121,7 @@
         width: 2rem;
         height: 2rem;
 
-        color: var(--light-gray);
+        color: colors.$light-gray;
     }
 
     .proficiency {
@@ -132,7 +133,7 @@
 }
 
 .footerWave {
-    color: var(--light-blue);
+    color: colors.$light-blue;
 }
 
 .footer {
@@ -142,10 +143,10 @@
 
     padding: 2rem;
 
-    background: var(--light-blue);
+    background: colors.$light-blue;
 
     & > p {
-        color: var(--light-gray);
+        color: colors.$light-gray;
     }
 
     .madeWith {

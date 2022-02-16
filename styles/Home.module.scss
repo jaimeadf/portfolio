@@ -1,4 +1,4 @@
-@use 'variables';
+@use 'variables/breakpoints';
 
 .container {
     display: flex;
@@ -161,7 +161,7 @@
     }
 }
 
-@media screen and (max-width: variables.$phone-breakpoint) {
+@media screen and (max-width: breakpoints.$phone) {
     .header {
         justify-content: center;
 

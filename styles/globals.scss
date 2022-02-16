@@ -1,4 +1,4 @@
-@use 'variables';
+@use 'variables/breakpoints';
 
 :root {
     scroll-behavior: smooth;
@@ -45,13 +45,13 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: variables.$tablet-breakpoint) {
+@media screen and (max-width: breakpoints.$tablet) {
     html {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: variables.$phone-breakpoint) {
+@media screen and (max-width: breakpoints.$phone) {
     html {
         font-size: 10px;
     }
